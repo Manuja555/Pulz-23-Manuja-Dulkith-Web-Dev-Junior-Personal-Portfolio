@@ -45,13 +45,13 @@
 
 display: flex;
 justify-content: center;
-position: fixed;
 margin-left: 300px;
 margin-right: 300px;
 margin-top: 10px;
 font-size: 18px;
 background-color: transparent;
-border-radius: 5px;
+border-radius: 50px;
+position: fixed;
 
 
 }
@@ -247,5 +247,18 @@ border-radius: 5px;
     color: black;
     size: 50px;
 
+
+}
+
+.social {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 6px solid rgb(0, 145, 255);
+    padding: 30px;   
+    padding-right: 80px; 
+    border-radius: 20px;
+    background-color:  rgb(0, 145, 255);
 
 }
