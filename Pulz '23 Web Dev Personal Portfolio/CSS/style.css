@@ -1,6 +1,16 @@
+.content {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
 .sec1 {
 
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
 
 }
 
@@ -9,6 +19,7 @@
     border-radius: 50%;
     width: 300px;
     height: 300px;
+    margin-left: 300px;
 
 
 }
@@ -36,7 +47,151 @@ display: flex;
 justify-content: center;
 position: fixed;
 margin-left: 300px;
-border: solid black;
-border-radius: 20px;
+margin-right: 300px;
+margin-top: 10px;
+font-size: 18px;
+background-color: transparent;
+border-radius: 5px;
+
 
 }
+
+.navbar ul{
+
+    border: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+
+
+}
+
+.navbar div {
+
+    border: none;
+    background-color: transparent;
+
+
+ 
+
+}
+
+.AboutButton a{
+
+    background-image: linear-gradient(to right, #3300ff, #009dff);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+
+
+}
+
+.Sec2 {
+
+
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+
+
+}
+
+.box div{
+
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 6px solid rgb(101, 193, 255);
+    opacity: 70%;
+}
+
+.box div:nth-child(1){
+
+    top: 80%;
+    left: 30%;
+    animation: animate 6s linear infinite;
+
+
+}
+.box div:nth-child(2){
+
+    top: 20%;
+    left: 15%;
+    animation: animate 4s linear infinite;
+
+
+}.box div:nth-child(3){
+
+    top: 50%;
+    left: 10%;
+    animation: animate 6s linear infinite;
+
+
+}.box div:nth-child(4){
+
+    top: 70%;
+    left: 90%;
+    animation: animate 3s linear infinite;
+
+
+}.box div:nth-child(5){
+
+    top: 90%;
+    left: 10%;
+    animation: animate 10s linear infinite;
+
+
+}.box div:nth-child(6){
+
+    top: 50%;
+    left: 42%;
+    animation: animate 9s linear infinite;
+
+
+}.box div:nth-child(7){
+
+    top: 65%;
+    left: 60%;
+    animation: animate 5s linear infinite;
+
+
+}.box div:nth-child(8){
+
+    top: 98%;
+    left: 60%;
+    animation: animate 7s linear infinite;
+
+
+}.box div:nth-child(9){
+
+    top: 70%;
+    left: 5%;
+    animation: animate 3s linear infinite;
+
+
+}.box div:nth-child(10){
+
+    top: 80%;
+    left: 78%;
+    animation: animate 8s linear infinite;
+
+
+}
+
+@keyframes animate{
+
+    0%{transform: scale(0) translateY(0) translateX(0) rotate(0);
+    opacity: 1;
+    border-color: #46daff;}
+    100%{transform: scale(1.5) translateY(-90px) translateX(90px) rotate(360deg);
+        opacity: 0;
+        border-color: #1000bd;}
+
+}
+
