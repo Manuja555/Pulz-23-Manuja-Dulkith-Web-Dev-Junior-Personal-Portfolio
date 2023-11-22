@@ -1,0 +1,42 @@
+.sec1 {
+
+    text-align: center;
+
+}
+
+.pfp {
+
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+
+
+}
+
+.startpage{
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+.leftside{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.navbar{
+
+
+display: flex;
+justify-content: center;
+position: fixed;
+margin-left: 300px;
+border: solid black;
+border-radius: 20px;
+
+}
